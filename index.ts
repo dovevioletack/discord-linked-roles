@@ -6,7 +6,7 @@ import cookieParser from 'cookie-parser';
 
 //import config from './config.js';
 import * as discord from './oauth2.ts';
-import * as storage from './storage.js';
+import * as storage from './storage.ts';
 /**
  * Main HTTP server used for the bot.
  */
