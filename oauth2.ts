@@ -1,5 +1,5 @@
 import crypto from 'crypto';
-import * as storage from './storage.ts';
+import * as storage from './storage';
 
 /**
  * Code specific to communicating with the Discord API.
