@@ -1,4 +1,4 @@
-import { data, saveData } from "./dataMsg.ts";
+import { data, saveData } from "./dataMsg";
 
 export async function storeDiscordTokens(userId: string, tokens: any) {
   data[`discord-${userId}`] = tokens;
