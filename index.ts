@@ -1,12 +1,12 @@
-import { client } from "./client.ts";
+import { client } from "./client";
 import { Routes } from "discord.js";
 
 import express from 'express';
 import cookieParser from 'cookie-parser';
 
 //import config from './config.js';
-import * as discord from './oauth2.ts';
-import * as storage from './storage.ts';
+import * as discord from './oauth2';
+import * as storage from './storage';
 /**
  * Main HTTP server used for the bot.
  */
